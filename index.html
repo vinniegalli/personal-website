@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinnie's Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navigation">
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container">
+
+    <section class="landing-section">
+      <div class="landing-section-text">
+        <h5>Hi, I'm Vini</h5>
+        <h1 class="title">Frontend Developer</h1>
+        <h5> based in Brazil.</h5>
+        <div class="button-wrapper">
+          <div class="button-border"></div>
+          <button>Resume</button>
+        </div>
+      </div>
+      <div class="profile-picture-wrapper">
+        <img src="./assets/profile.jpg" class="profile-picture" alt="Vini's profile picture">
+        <div class="slashes">&lt/&gt</div>
+        <div class="profile-picture-border"></div>
+        <div class="plus1">+</div>
+        <div class="plus2">+</div>
+        <div class="plus3">+</div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h1 id="about">about.</h1>
+      <p class="paragraph">
+        Welcome! I'm Vinicius Galli, your friendly neighborhood frontend wizard on a mission to make user experiences so
+        seamless, they make butter jealous!
+      </p>
+      <p class="paragraph">
+        Armed with React skills sharper than a ninja's katana and a JavaScript mojo that Chuck Norris would envy, I
+        blend
+        creativity and technical know-how into a concoction that turns projects from "meh" to "yeah!"
+      </p>
+      <p class="paragraph">
+        Stick around, and let's turn your digital dreams into reality. I promise, the only bugs we'll encounter will be
+        the funny ones in our code, not the creepy-crawly kind!
+      </p>
+      <ul class="experiences-wrapper">
+        <li>
+          <p><strong>2023 - now</strong></p>
+          <p>Frontend Developer, DriftWeb, Brazil</p>
+        </li>
+
+        <li>
+          <p><strong>2021 - now</strong></p>
+          <p>Frontend Developer, Freelancer, Brazil</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="skills-wrapper">
+      <h1 id="skills">skills.</h1>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+        <li>Git</li>
+        <li>Figma</li>
+      </ul>
+    </section>
+
+    <section class="projects-wrapper">
+      <h1 id="projects">projects.</h1>
+      <div class="projects-grid">
+        <div class="project-single">
+          <a href="https://vinniegalli.github.io/clima-tempo/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/climatempo.png" alt="clima tempo initial page">
+            <p>This is a WebApp created with React using "ClimaTempo" API to check the weather in certain city. Just
+              write the city name and it will return the infos.</p>
+          </a>
+        </div>
+
+        <div class="project-single">
+          <a href="https://vinniegalli.github.io/buscador-cep/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/buscadorcep.png" alt="buscador cep initial page">
+            <p>This one is a zip code finder. It conects with an API and search your zip code infos. Works in Brazil!
+            </p>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section>
+      <h1 id="contact">contact.</h1>
+      <div class="contact-wrapper">
+        <!-- <img src="./phone.png" class="contact-us-image" alt="Contact us picture"> -->
+        <div class="text-wrapper">
+
+          <p>
+            If you've got a project brewing, a coding challenge that needs conquering, or just want to chat about the
+            latest
+            JavaScript memes, I'm all ears! My keyboard is ready, and my coffee mug is full.
+          </p>
+          <p>
+            Drop me a message, and let's turn your ideas into code. Looking forward to connecting with fellow tech
+            enthusiasts, caffeine addicts, and anyone who appreciates a well-placed semicolon!
+          </p>
+          <p>Cheers,</p>
+          <div class="links-wrapper">
+            <a href="mailto:vinniegalli@gmail.com"><img src="./assets/envelope-simple.svg" alt="email logo"></a>
+            <a href="https://linkedin.com/in/vinicius-galli" target="_blank" rel=" noopener noreferrer"><img
+                src="./assets/linkedin-logo.svg" alt="logo likedin"></a>
+            <a href="https://github.com/vinniegalli" target="_blank" rel=" noopener noreferrer"><img
+                src="./assets/github-logo.svg" alt="github logo"></a>
+            <a href="https://instagram.com/vinniegalli" target="_blank" rel=" noopener noreferrer"><img
+                src="./assets/instagram-logo.svg" alt="github logo"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
